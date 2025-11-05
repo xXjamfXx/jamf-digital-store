@@ -1,13 +1,13 @@
 {
   "windows": [
     {
-      "nombre": "Windows 11 Pro JA",
+      "nombre": "Windows 11 Pro",
       "precio": "₡25.000",
       "codigo": "WIN-001",
       "imagen": "images/windows11.jpg"
     },
     {
-      "nombre": "Windows 10 Home", 
+      "nombre": "Windows 10 Home",
       "precio": "₡20.000",
       "codigo": "WIN-002",
       "imagen": "images/windows10.jpg"
