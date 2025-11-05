@@ -90,12 +90,16 @@ body {
 
 .benefit-item {
     text-align: center;
-    padding: 40px 25px;
+    padding: 25px 20px;
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .benefit-item:hover {
@@ -105,25 +109,25 @@ body {
 }
 
 .benefit-item i {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--primary);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .benefit-item h3 {
-    font-size: 1.4rem;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
     color: var(--dark);
     font-weight: 700;
 }
 
 .benefit-item p {
     color: var(--secondary);
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 /* Products Section */
@@ -396,5 +400,6 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
