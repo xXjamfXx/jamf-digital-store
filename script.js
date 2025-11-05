@@ -24,13 +24,14 @@ function displayProducts(products, category) {
         productCard.className = 'product-card';
         
         productCard.innerHTML = `
-            <div class="product-name">${product.nombre}</div>
-            <div class="product-price">${product.precio}</div>
-            <div class="product-code">Código: ${product.codigo}</div>
-            <button class="whatsapp-button" onclick="buyProduct('${product.nombre}', '${product.codigo}')">
-                💬 Comprar por WhatsApp
-            </button>
-        `;
+    <img src="${product.imagen}" alt="${product.nombre}" class="product-image">
+    <div class="product-name">${product.nombre}</div>
+    <div class="product-price">${product.precio}</div>
+    <div class="product-code">Código: ${product.codigo}</div>
+    <button class="whatsapp-button" onclick="buyProduct('${product.nombre}', '${product.codigo}')">
+        💬 Comprar por WhatsApp
+    </button>
+`;
         
         container.appendChild(productCard);
     });
@@ -66,4 +67,5 @@ document.addEventListener('DOMContentLoaded', async function() {
             displayProducts(products, category);
         });
     });
+
 });
