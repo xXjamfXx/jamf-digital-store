@@ -105,6 +105,27 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.benefit-item {
+    text-align: center;
+    padding: 15px 12px;
+    min-height: 140px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary);
 }
 
 /* Para tablets */
@@ -386,6 +407,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
