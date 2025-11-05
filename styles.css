@@ -77,57 +77,55 @@ body {
 
 /* Benefits Section */
 .benefits {
-    padding: 80px 0;
+    padding: 40px 0;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
 
 .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .benefit-item {
     text-align: center;
-    padding: 25px 20px;
+    padding: 20px 15px;
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    border: 2px solid transparent;
-    min-height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    min-height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .benefit-item:hover {
-    transform: translateY(-8px);
-    border-color: var(--primary);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .benefit-item i {
-    font-size: 2.5rem;
-    color: var(--primary);
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: 10px;
     background: linear-gradient(135deg, var(--primary), var(--primary-dark));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .benefit-item h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
     color: var(--dark);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .benefit-item p {
     color: var(--secondary);
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.85rem;
+    line-height: 1.3;
 }
 
 /* Products Section */
@@ -400,6 +398,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
