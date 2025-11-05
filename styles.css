@@ -75,30 +75,9 @@ body {
     font-weight: 500;
 }
 
-/* Ajuste extra para beneficios más compactos */
+/* Benefits Section */
 .benefits {
-    padding: 30px 0 !important;
-}
-
-.benefit-item {
-    padding: 15px 12px !important;
-    min-height: 140px !important;
-    border-radius: 10px !important;
-}
-
-.benefit-item i {
-    font-size: 1.8rem !important;
-    margin-bottom: 8px !important;
-}
-
-.benefit-item h3 {
-    font-size: 1rem !important;
-    margin-bottom: 5px !important;
-}
-
-.benefit-item p {
-    font-size: 0.8rem !important;
-    line-height: 1.2 !important;
+    padding: 30px 0;
 }
 
 .benefits-grid {
@@ -109,6 +88,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .benefit-item {
     text-align: center;
     padding: 15px 12px;
@@ -128,6 +108,27 @@ body {
     border-color: var(--primary);
 }
 
+.benefit-item i {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.benefit-item h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+.benefit-item p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    color: var(--secondary);
+}
+
 /* Para tablets */
 @media (max-width: 1024px) {
     .benefits-grid {
@@ -142,6 +143,7 @@ body {
     }
 }
 
+/* Products Section */
 .section-title {
     text-align: center;
     margin-bottom: 50px;
@@ -392,7 +394,7 @@ body {
     }
     
     .benefit-item {
-        padding: 30px 20px;
+        padding: 20px 15px;
     }
     
     .product-card {
@@ -407,10 +409,3 @@ body {
         font-size: 1.8rem;
     }
 }
-
-
-
-
-
-
-
