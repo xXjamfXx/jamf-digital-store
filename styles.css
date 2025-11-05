@@ -293,6 +293,16 @@ body {
     transform: scale(1.05);
     box-shadow: 0 8px 25px rgba(16, 185, 129, 0.6);
 }
+/* Estilos para imágenes de productos */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #f8fafc;
+    padding: 10px;
+}
 
 /* Footer */
 .main-footer {
@@ -409,6 +419,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
