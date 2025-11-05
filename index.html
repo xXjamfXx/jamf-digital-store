@@ -3,26 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAMF Digital Store</title>
+    <title>JAMF Digital Store - Licencias Originales</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>JAMF Digital Store</h1>
-            <p>Licencias originales de software</p>
-        </header>
-
-        <div class="tabs">
-            <button class="tab-button active" data-category="windows">Windows</button>
-            <button class="tab-button" data-category="office">Office</button>
-            <button class="tab-button" data-category="antivirus">Antivirus</button>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="JAMF Digital Store" class="logo">
+                <div class="header-text">
+                    <h1>JAMF Digital Store</h1>
+                    <p>Licencias originales de software 100% garantizadas</p>
+                </div>
+            </div>
         </div>
+    </header>
 
-        <div id="products-container" class="products-grid">
-            <!-- Los productos se cargan aquí automáticamente -->
+    <!-- Beneficios -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>100% Originales</h3>
+                    <p>Licencias oficiales con garantía</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Entrega Inmediata</h3>
+                    <p>Recibe tu licencia al instante</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>Soporte Técnico</h3>
+                    <p>Ayuda profesional incluida</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>Pago Seguro</h3>
+                    <p>Transacciones protegidas</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="products-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Productos</h2>
+                <p>Selecciona la categoría de tu interés</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-button active" data-category="windows">
+                    <i class="fab fa-windows"></i> Windows
+                </button>
+                <button class="tab-button" data-category="office">
+                    <i class="fas fa-file-excel"></i> Office
+                </button>
+                <button class="tab-button" data-category="antivirus">
+                    <i class="fas fa-shield-virus"></i> Antivirus
+                </button>
+            </div>
+
+            <div id="products-container" class="products-grid">
+                <!-- Los productos se cargan aquí -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JAMF Digital Store</h3>
+                    <p>Tu tienda confiable de licencias de software</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fab fa-whatsapp"></i> +57 314 3652462</p>
+                    <p>Disponible 24/7</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 JAMF Digital Store. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
