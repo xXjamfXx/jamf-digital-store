@@ -1,38 +1,44 @@
 {
   "windows": [
     {
-      "nombre": "Windows 11 Pro",
+      "nombre": "Windows 11 Pro JA",
       "precio": "₡25.000",
-      "codigo": "WIN-001"
+      "codigo": "WIN-001",
+      "imagen": "images/windows11.jpg"
     },
     {
       "nombre": "Windows 10 Home", 
       "precio": "₡20.000",
-      "codigo": "WIN-002"
+      "codigo": "WIN-002",
+      "imagen": "images/windows10.jpg"
     }
   ],
   "office": [
     {
       "nombre": "Office 2021 Pro",
       "precio": "₡30.000",
-      "codigo": "OFF-001"
+      "codigo": "OFF-001",
+      "imagen": "images/office2021.jpg"
     },
     {
       "nombre": "Office 365 Personal",
       "precio": "₡15.000/mes",
-      "codigo": "OFF-002"
+      "codigo": "OFF-002",
+      "imagen": "images/office365.jpg"
     }
   ],
   "antivirus": [
     {
       "nombre": "Kaspersky Antivirus 1 Año",
       "precio": "₡12.000",
-      "codigo": "AV-001"
+      "codigo": "AV-001",
+      "imagen": "images/kaspersky.jpg"
     },
     {
       "nombre": "Norton Security Deluxe",
       "precio": "₡18.000",
-      "codigo": "AV-002"
+      "codigo": "AV-002",
+      "imagen": "images/norton.jpg"
     }
   ]
 }
