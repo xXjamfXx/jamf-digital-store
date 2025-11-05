@@ -102,11 +102,23 @@ body {
 }
 
 .benefits-grid {
-    gap: 15px !important;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
 }
-/* Products Section */
-.products-section {
-    padding: 80px 0;
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .section-title {
@@ -374,6 +386,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
