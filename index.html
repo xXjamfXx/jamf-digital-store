@@ -54,16 +54,16 @@
             </div>
 
             <div class="tabs">
-                <button class="tab-button active" data-category="windows">
-                    <i class="fab fa-windows"></i> Windows
-                </button>
-                <button class="tab-button" data-category="office">
-                <i class="fab fa-microsoft"></i> Office
-                </button>
-                <button class="tab-button" data-category="antivirus">
-                    <i class="fas fa-shield-virus"></i> Antivirus
-                </button>
-            </div>
+    <button class="tab-button active" onclick="filterProducts('windows')">
+        <i class="fab fa-windows"></i> Windows
+    </button>
+    <button class="tab-button" onclick="filterProducts('office')">
+        <i class="fab fa-microsoft"></i> Office
+    </button>
+    <button class="tab-button" onclick="filterProducts('antivirus')">
+        <i class="fas fa-shield-virus"></i> Antivirus
+    </button>
+</div>
 
             <div id="products-container" class="products-grid">
                 <!-- Los productos se cargan aquí automáticamente -->
@@ -106,6 +106,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
