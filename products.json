@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Windows 10 Professional",
       "category": "windows",
-      "price": "$65.000",
+      "price": "$75.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-003",
       "image": "images/10pro.jpg"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Windows 11 Professional",
       "category": "windows",
-      "price": "$65.000",
+      "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-004",
       "image": "images/11pro.jpg"
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Windows 10 Home",
       "category": "windows",
-      "price": "$65.000",
+      "price": "$75.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-005",
       "image": "images/10home.jpg"
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Windows 11 Home",
       "category": "windows",
-      "price": "$65.000",
+      "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-006",
       "image": "images/11home.jpg"
@@ -85,7 +85,7 @@
       "id": 10,
       "name": "Windows Server Datacenter 2025 Standard",
       "category": "windows",
-      "price": "$85.000",
+      "price": "$100.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-010",
       "image": "images/windows-server.jpg"
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Windows Server Standard 2016",
       "category": "windows",
-      "price": "$95.000",
+      "price": "$70.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-012",
       "image": "images/windows-server.jpg"
@@ -116,24 +116,6 @@
       "description": "1 Uso/Vitalicio",
       "code": "WIN-013",
       "image": "images/windows-server.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Microsoft Visual Studio 2019 Professional",
-      "category": "windows",
-      "price": "$105.000",
-      "description": "1 Uso/Vitalicio",
-      "code": "WIN-014",
-      "image": "images/visual-studio.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Microsoft Visual Studio 2022 Professional",
-      "category": "windows",
-      "price": "$105.000",
-      "description": "1 Uso/Vitalicio",
-      "code": "WIN-015",
-      "image": "images/visual-studio.jpg"
     },
     {
       "id": 16,
@@ -179,24 +161,6 @@
       "description": "1 Uso/Vitalicio",
       "code": "WIN-020",
       "image": "images/visio.jpg"
-    },
-    {
-      "id": 21,
-      "name": "Microsoft Visual Studio Enterprise 2019",
-      "category": "windows",
-      "price": "$105.000",
-      "description": "1 Uso/Vitalicio",
-      "code": "WIN-021",
-      "image": "images/visual-studio.jpg"
-    },
-    {
-      "id": 22,
-      "name": "Microsoft Visual Studio Enterprise 2022",
-      "category": "windows",
-      "price": "$105.000",
-      "description": "1 Uso/Vitalicio",
-      "code": "WIN-022",
-      "image": "images/visual-studio.jpg"
     },
     {
       "id": 23,
@@ -265,7 +229,7 @@
       "id": 30,
       "name": "Microsoft Office 365 Pro (Modalidad de cuenta)",
       "category": "office",
-      "price": "$125.000",
+      "price": "$175.000",
       "description": "5 Dispositivos vitalicio",
       "code": "OFF-008",
       "image": "images/office365.jpg"
@@ -283,7 +247,7 @@
       "id": 32,
       "name": "Microsoft Office 2019 Home and Business (MAC)",
       "category": "office",
-      "price": "$265.000",
+      "price": "$300.000",
       "description": "1 Uso/Vitalicio",
       "code": "OFF-010",
       "image": "images/officemac.jpg"
@@ -292,7 +256,7 @@
       "id": 33,
       "name": "Microsoft Office 2021 Home and Business (MAC)",
       "category": "office",
-      "price": "$915.000",
+      "price": "$650.000",
       "description": "1 Uso/Vitalicio",
       "code": "OFF-011",
       "image": "images/officemac.jpg"
@@ -310,7 +274,7 @@
       "id": 35,
       "name": "Kaspersky Total Security 1 Dispositivo",
       "category": "antivirus",
-      "price": "$69.000",
+      "price": "$75.000",
       "description": "1 Año",
       "code": "AV-001",
       "image": "images/Kasperskytotal.jpg"
@@ -319,7 +283,7 @@
       "id": 36,
       "name": "Kaspersky Total Security 2 Dispositivos",
       "category": "antivirus",
-      "price": "$101.000",
+      "price": "$120.000",
       "description": "1 Año",
       "code": "AV-002",
       "image": "images/Kasperskytotal.jpg"
@@ -445,7 +409,7 @@
       "id": 50,
       "name": "ESET NOD32 Antivirus Premium 1 Dispositivo",
       "category": "antivirus",
-      "price": "$165.000",
+      "price": "$125.000",
       "description": "1 Año",
       "code": "AV-016",
       "image": "images/eset.jpg"
@@ -454,7 +418,7 @@
       "id": 51,
       "name": "McAfee Total Protection 1 Dispositivo",
       "category": "antivirus",
-      "price": "$65.000",
+      "price": "$75.000",
       "description": "1 Año",
       "code": "AV-017",
       "image": "images/McAfeeTotal.jpg"
@@ -463,7 +427,7 @@
       "id": 52,
       "name": "McAfee Total Protection Multidevice 3 Dispositivos",
       "category": "antivirus",
-      "price": "$134.800",
+      "price": "$124.800",
       "description": "1 Año",
       "code": "AV-018",
       "image": "images/McAfeeTotal.jpg"
@@ -481,7 +445,7 @@
       "id": 54,
       "name": "Kaspersky Premium 2024 3 Dispositivos",
       "category": "antivirus",
-      "price": "$395.000",
+      "price": "$300.000",
       "description": "1 Año",
       "code": "AV-020",
       "image": "images/KasperskyPremium.jpg"
@@ -490,7 +454,7 @@
       "id": 55,
       "name": "Kaspersky Premium 2024 5 Dispositivos",
       "category": "antivirus",
-      "price": "$545.000",
+      "price": "$500.000",
       "description": "1 Año",
       "code": "AV-021",
       "image": "images/KasperskyPremium.jpg"
@@ -499,7 +463,7 @@
       "id": 56,
       "name": "Kaspersky Premium 2024 10 Dispositivos",
       "category": "antivirus",
-      "price": "$814.800",
+      "price": "$714.800",
       "description": "1 Año",
       "code": "AV-022",
       "image": "images/KasperskyPremium.jpg"
@@ -508,7 +472,7 @@
       "id": 57,
       "name": "AVG Ultimate (PC)",
       "category": "antivirus",
-      "price": "$105.000",
+      "price": "$90.000",
       "description": "1 Año",
       "code": "AV-023",
       "image": "images/avg.jpg"
@@ -517,25 +481,17 @@
       "id": 58,
       "name": "AVG Ultimate Multi-Device (Windows - Android - MAC)",
       "category": "antivirus",
-      "price": "$145.000",
+      "price": "$125.000",
       "description": "1 Año",
       "code": "AV-024",
       "image": "images/avg.jpg"
     },
-    {
-      "id": 59,
-      "name": "Avast Mobile Security Premium (Android)",
-      "category": "antivirus",
-      "price": "$65.000",
-      "description": "1 Año",
-      "code": "AV-025",
-      "image": "images/avast-mobile.jpg"
-    },
+    
     {
       "id": 60,
       "name": "Avast Premium Security (Windows)",
       "category": "antivirus",
-      "price": "$113.000",
+      "price": "$90.000",
       "description": "1 Año",
       "code": "AV-026",
       "image": "images/AvastPremiumSecurity.jpg"
@@ -562,10 +518,11 @@
       "id": 63,
       "name": "Malwarebytes Anti-Malware Premium 1 Dispositivo (Windows)",
       "category": "antivirus",
-      "price": "$245.000",
+      "price": "$200.000",
       "description": "1 Año",
       "code": "AV-029",
       "image": "images/malwarebytes.jpg"
     }
   ]
 }
+
