@@ -61,7 +61,7 @@
       "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-007",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-008",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-009",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "price": "$100.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-010",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "price": "$91.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-011",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "price": "$70.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-012",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 13,
@@ -115,7 +115,7 @@
       "price": "$245.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-013",
-      "image": "images/windows-server.jpg"
+      "image": "images/Windosserver.jpg"
     },
     {
       "id": 16,
@@ -124,7 +124,7 @@
       "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-016",
-      "image": "images/project.jpg"
+      "image": "images/projet.jpg"
     },
     {
       "id": 17,
@@ -133,7 +133,7 @@
       "price": "$85.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-017",
-      "image": "images/project.jpg"
+      "image": "images/projet.jpg"
     },
     {
       "id": 18,
@@ -142,7 +142,7 @@
       "price": "$95.000",
       "description": "1 Uso/Vitalicio",
       "code": "WIN-018",
-      "image": "images/project.jpg"
+      "image": "images/projet.jpg"
     },
     {
       "id": 19,
@@ -412,7 +412,7 @@
       "price": "$125.000",
       "description": "1 Año",
       "code": "AV-016",
-      "image": "images/eset.jpg"
+      "image": "images/ESET.JGP.jpg"
     },
     {
       "id": 51,
@@ -486,7 +486,6 @@
       "code": "AV-024",
       "image": "images/avg.jpg"
     },
-    
     {
       "id": 60,
       "name": "Avast Premium Security (Windows)",
@@ -521,8 +520,7 @@
       "price": "$200.000",
       "description": "1 Año",
       "code": "AV-029",
-      "image": "images/malwarebytes.jpg"
+      "image": "images/malware.jpg"
     }
   ]
 }
-
