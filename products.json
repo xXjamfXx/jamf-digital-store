@@ -522,7 +522,7 @@
       "code": "AV-029",
       "image": "images/malware.jpg"
     }
-  ],
+  ,
 {
   "id": 64,
   "name": "Diagnóstico y Resolución de Problemas",
@@ -577,5 +577,5 @@
   "code": "SOP-006",
   "image": "images/soporte-redes-instalacion.jpg"
 }
-}
+]
 
