@@ -36,14 +36,15 @@ function displayProductsByCategory(category) {
             productCard.className = 'product-card';
             
             productCard.innerHTML = `
-                <img src="${product.image}" alt="${product.name}" class="product-image">
-                <div class="product-name">${product.name}</div>
-                <div class="product-price">${product.price}</div>
-                <div class="product-code">Código: ${product.code}</div>
-                <button class="whatsapp-button" onclick="buyProduct('${product.name}', '${product.code}')">
-                    💬 Comprar por WhatsApp
-                </button>
-            `;
+    <img src="${product.image}" alt="${product.name}" class="product-image">
+    <div class="product-name">${product.name}</div>
+    <div class="product-price">${product.price}</div>
+    <div class="product-description">${product.description}</div> <!-- LÍNEA AGREGADA -->
+    <div class="product-code">Código: ${product.code}</div>
+    <button class="whatsapp-button" onclick="buyProduct('${product.name}', '${product.code}')">
+        💬 Comprar por WhatsApp
+    </button>
+`;
             
             container.appendChild(productCard);
         });
@@ -61,3 +62,4 @@ function buyProduct(productName, productCode) {
 document.addEventListener('DOMContentLoaded', function() {
     displayProductsByCategory('windows');
 });
+
