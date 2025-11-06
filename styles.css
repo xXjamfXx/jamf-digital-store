@@ -263,6 +263,14 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.product-description {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-bottom: 10px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
 .product-code {
     color: var(--secondary);
     font-size: 0.8rem;
@@ -419,6 +427,7 @@ body {
         font-size: 1.8rem;
     }
 }
+
 
 
 
