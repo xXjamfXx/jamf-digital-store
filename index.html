@@ -31,22 +31,35 @@
                 <p>Selecciona la categoría de tu interés</p>
             </div>
 
-            <div class="tabs">
-                 <button class="tab-button" onclick="filterProducts('soporte')">
-        <i class="fas fa-headset"></i> Soporte Técnico
-    </button>
-    <button class="tab-button" onclick="filterProducts('camaras')">
-        <i class="fas fa-video"></i> Cámaras de Seguridad
-    </button>
-    <button class="tab-button active" onclick="filterProducts('windows')">
-        <i class="fab fa-windows"></i> Windows
-    </button>
-    <button class="tab-button" onclick="filterProducts('office')">
-        <i class="fab fa-microsoft"></i> Office
-    </button>
-    <button class="tab-button" onclick="filterProducts('antivirus')">
-        <i class="fas fa-shield-virus"></i> Antivirus
-    </button>
+      <div class="categories-header">
+    <div class="category-title">
+        <h3>Servicios de Soporte y Cámaras CCTV</h3>
+    </div>
+    <div class="category-title">
+        <h3>Licencias Digitales</h3>
+    </div>
+</div>
+
+<div class="categories-buttons">
+    <div class="button-group">
+        <button class="tab-button" onclick="filterProducts('soporte')">
+            <i class="fas fa-headset"></i> Soporte Técnico
+        </button>
+        <button class="tab-button" onclick="filterProducts('camaras')">
+            <i class="fas fa-video"></i> Cámaras de Seguridad
+        </button>
+    </div>
+    <div class="button-group">
+        <button class="tab-button active" onclick="filterProducts('windows')">
+            <i class="fab fa-windows"></i> Windows
+        </button>
+        <button class="tab-button" onclick="filterProducts('office')">
+            <i class="fab fa-microsoft"></i> Office
+        </button>
+        <button class="tab-button" onclick="filterProducts('antivirus')">
+            <i class="fas fa-shield-virus"></i> Antivirus
+        </button>
+    </div>
 </div>
 
             <div id="products-container" class="products-grid">
@@ -90,6 +103,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
