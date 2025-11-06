@@ -58,8 +58,9 @@ function buyProduct(productName, productCode) {
     window.open(whatsappUrl, '_blank');
 }
 
-// Inicializar - mostrar Windows por defecto
+// Inicializar - mostrar Soporte por defecto
 document.addEventListener('DOMContentLoaded', function() {
-    displayProductsByCategory('windows');
+    displayProductsByCategory('soporte');
 });
+
 
