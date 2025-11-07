@@ -514,22 +514,13 @@
       "image": "images/AvastPremiumSecurity.jpg"
     },
     {
-      "id": 63,
-      "name": "Malwarebytes Anti-Malware Premium 1 Dispositivo (Windows)",
-      "category": "antivirus",
-      "price": "$200.000",
-      "description": "1 Año",
-      "code": "AV-029",
-      "image": "images/malware.jpg"
-    },
-    {
       "id": 64,
       "name": "Diagnóstico y Resolución de Problemas",
       "category": "soporte",
       "price": "Costo sujeto a evaluación técnica",
       "description": "Hardware y software",
       "code": "SOP-001",
-      "image": "images/soporte-diagnostico.jpg"
+      "image": "images/Diagnóstico y Resolución de Problemas.jpg"
     },
     {
       "id": 65,
@@ -538,7 +529,7 @@
       "price": "Costo sujeto a evaluación técnica",
       "description": "PC, software y periféricos",
       "code": "SOP-002",
-      "image": "images/soporte-instalacion.jpg"
+      "image": "images/Instalación y Configuración de Equipos.jpg"
     },
     {
       "id": 66,
@@ -547,7 +538,7 @@
       "price": "Costo sujeto a evaluación técnica",
       "description": "Limpieza y optimización",
       "code": "SOP-003",
-      "image": "images/soporte-mantenimiento.jpg"
+      "image": "images/Mantenimiento Preventivo Completo.jpg"
     },
     {
       "id": 67,
@@ -556,7 +547,7 @@
       "price": "Costo sujeto a evaluación técnica",
       "description": "Configuración y solución de redes",
       "code": "SOP-004",
-      "image": "images/soporte-redes.jpg"
+      "image": "images/Soporte de Redes y Conectividad.jpg"
     },
     {
       "id": 68,
@@ -572,13 +563,13 @@
       "name": "Instalación de Redes Básica",
       "category": "soporte",
       "price": "Costo sujeto a evaluación técnica",
-      "description": "Hasta 5 puntos de red",
+      "description": "",
       "code": "SOP-006",
-      "image": "images/soporte-redes-instalacion.jpg"
+      "image": "images/Instalación de Redes Básica.jpg"
     },
     {
       "id": 70,
-      "name": "Kit Dahua CCTV 1080p DVR 8 Ch + 4 Cámaras Full Color",
+      "name": "Kit Dahua Cctv 1080p Dvr 8 Ch + 4 Cámaras Full Color",
       "category": "camaras",
       "price": "$930.896",
       "description": "Disponible por encargo",
@@ -587,48 +578,48 @@
     },
     {
       "id": 71,
-      "name": "Kit Dahua CCTV 1080p DVR 4ch + 3 Cámaras",
+      "name": "Kit Dahua Cctv 1080p Dahua Dvr 4ch + 3 cámaras",
       "category": "camaras",
       "price": "$500.000",
       "description": "Disponible por encargo",
       "code": "CAM-002",
-      "image": "images/camaras-3kit.jpg"
+      "image": "images/camaras-8kit.jpg"
     },
     {
       "id": 72,
-      "name": "Kit Dahua CCTV DVR 4ch + 4 Cámaras",
+      "name": "Kit Dahua Cctv Dahua Dvr 4ch + 4 Cámaras",
       "category": "camaras",
       "price": "$570.000",
       "description": "Disponible por encargo",
       "code": "CAM-003",
-      "image": "images/camaras-4kit-dahua.jpg"
+      "image": "images/camara-ip-wifi.jpg"
     },
     {
       "id": 73,
-      "name": "Kit CCTV Hilook: DVR 4ch + 4 Cámaras 1080p",
+      "name": "Kit Cctv Hilook: Dvr 4ch + 4 Cámaras 1080p",
       "category": "camaras",
       "price": "$615.000",
       "description": "Disponible por encargo",
       "code": "CAM-004",
-      "image": "images/camaras-4kit-hilook.jpg"
+      "image": "images/camaras-16kit.jpg"
     },
     {
       "id": 74,
-      "name": "Kit Dahua CCTV 1080p DVR 8 Ch + 8 Cámaras",
+      "name": "Kit Dahua Cctv 1080p Dahua Dvr 8 Ch + 8 Cámaras",
       "category": "camaras",
       "price": "$1.150.000",
       "description": "Disponible por encargo",
       "code": "CAM-005",
-      "image": "images/camaras-8kit.jpg"
+      "image": "images/camara-domo.jpg"
     },
     {
       "id": 75,
-      "name": "Kit Dahua CCTV 1080p DVR 16ch + 13 Cámaras",
+      "name": "Kit Dahua Cctv 1080p Dahua Dvr 16ch + 13 Cámaras",
       "category": "camaras",
       "price": "$1.750.000",
       "description": "Disponible por encargo",
       "code": "CAM-006",
-      "image": "images/camaras-13kit.jpg"
+      "image": "images/camara-domo1.jpg"
     },
     {
       "id": 76,
@@ -646,10 +637,9 @@
       "price": "Precio según requerimientos del cliente",
       "description": "Diseña el combo ideal para tu hogar o negocio",
       "code": "CAM-008",
-      "image": "images/arma-tu-combo.jpg"
+      "image": "images/armac.jpg"
     }
   ]
 }
-
 
 
