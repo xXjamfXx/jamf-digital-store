@@ -527,7 +527,7 @@
       "name": "Diagnóstico y Resolución de Problemas",
       "category": "soporte",
       "price": "Costo sujeto a evaluación técnica",
-      "description": "Hardware y software - 2 horas",
+      "description": "Hardware y software",
       "code": "SOP-001",
       "image": "images/Diagnóstico y Resolución de Problemas.jpg"
     },
@@ -566,7 +566,80 @@
       "description": "",
       "code": "SOP-006",
       "image": "images/Instalación de Redes Básica.jpg"
-    }
+    },
+    {
+  "id": 75,
+  "name": "Instalación Profesional de Cámaras",
+  "category": "camaras", 
+  "price": "A cotizar según alcance del servicio",
+  "description": "Instalación y configuración completa",
+  "code": "CAM-006",
+  "image": "images/instalacion-camaras.jpg"
+},
+{
+  "id": 70,
+  "name": "Kit Dahua Cctv 1080p Dvr 8 Ch + 4 Cámaras Full Color",
+  "category": "camaras",
+  "price": "$930.896",
+  "description": "Disponible por encargo",
+  "code": "CAM-001",
+  "image": "images/camaras-4kit.jpg"
+},
+{
+  "id": 71,
+  "name": "Kit Dahua Cctv 1080p Dahua Dvr 4ch + 3 cámaras",
+  "category": "camaras",
+  "price": "$500.000", 
+  "description": "Disponible por encargo",
+  "code": "CAM-002",
+  "image": "images/camaras-8kit.jpg"
+},
+{
+  "id": 72,
+  "name": "Kit Dahua Cctv Dahua Dvr 4ch + 4 Cámaras",
+  "category": "camaras",
+  "price": "$570.000",
+  "description": "Disponible por encargo",
+  "code": "CAM-003",
+  "image": "images/camara-ip-wifi.jpg"
+},
+{
+  "id": 73,
+  "name": "Kit Cctv Hilook: Dvr 4ch + 4 Cámaras 1080p",
+  "category": "camaras",
+  "price": "$615.000",
+  "description": "Disponible por encargo",
+  "code": "CAM-004",
+  "image": "images/camaras-16kit.jpg"
+},
+{
+  "id": 74,
+  "name": "Kit Dahua Cctv 1080p Dahua Dvr 8 Ch + 8 Cámaras",
+  "category": "camaras",
+  "price": "$1.150.000",
+  "description": "Disponible por encargo",
+  "code": "CAM-005",
+  "image": "images/camara-domo.jpg"
+},
+  {
+  "id": 74,
+  "name": "Kit Dahua Cctv 1080p Dahua Dvr 16ch + 13 Cámaras",
+  "category": "camaras",
+  "price": "$1.750.000",
+  "description": "Disponible por encargo",
+  "code": "CAM-005",
+  "image": "images/camara-domo1.jpg"
+},
+    {
+  "id": 74,
+  "name": "¡Arma tu combo CCTV!",
+  "category": "camaras",
+  "price": "Precio según requerimientos del cliente",
+  "description": "Diseña el combo ideal para tu hogar o negocio",
+  "code": "CAM-005",
+  "image": "images/armac.jpg"
+},  
   ]
 }
+
 
