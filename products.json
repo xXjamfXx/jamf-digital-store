@@ -550,15 +550,6 @@
       "image": "images/Soporte de Redes y Conectividad.jpg"
     },
     {
-      "id": 68,
-      "name": "Asistencia a Usuarios",
-      "category": "soporte",
-      "price": "Costo sujeto a evaluación técnica",
-      "description": "Soporte general personalizado",
-      "code": "SOP-005",
-      "image": "images/soporte-asistencia.jpg"
-    },
-    {
       "id": 69,
       "name": "Instalación de Redes Básica",
       "category": "soporte",
@@ -566,6 +557,15 @@
       "description": "",
       "code": "SOP-006",
       "image": "images/Instalación de Redes Básica.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Instalación Profesional de Cámaras",
+      "category": "camaras",
+      "price": "A cotizar según alcance del servicio",
+      "description": "Instalación y configuración completa",
+      "code": "CAM-007",
+      "image": "images/instalacion-camaras.jpg"
     },
     {
       "id": 70,
@@ -622,15 +622,6 @@
       "image": "images/camara-domo1.jpg"
     },
     {
-      "id": 76,
-      "name": "Instalación Profesional de Cámaras",
-      "category": "camaras",
-      "price": "A cotizar según alcance del servicio",
-      "description": "Instalación y configuración completa",
-      "code": "CAM-007",
-      "image": "images/instalacion-camaras.jpg"
-    },
-    {
       "id": 77,
       "name": "¡Arma tu combo CCTV!",
       "category": "camaras",
@@ -641,5 +632,6 @@
     }
   ]
 }
+
 
 
