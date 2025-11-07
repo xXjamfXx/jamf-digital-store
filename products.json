@@ -526,55 +526,47 @@
       "id": 64,
       "name": "Diagnóstico y Resolución de Problemas",
       "category": "soporte",
-      "price": "$60.000",
+      "price": "Costo sujeto a evaluación técnica",
       "description": "Hardware y software - 2 horas",
       "code": "SOP-001",
-      "image": "images/soporte-diagnostico.jpg"
+      "image": "images/Diagnóstico y Resolución de Problemas.jpg"
     },
     {
       "id": 65,
       "name": "Instalación y Configuración de Equipos",
       "category": "soporte",
-      "price": "$80.000",
+      "price": "Costo sujeto a evaluación técnica",
       "description": "PC, software y periféricos",
       "code": "SOP-002",
-      "image": "images/soporte-instalacion.jpg"
+      "image": "images/Instalación y Configuración de Equipos.jpg"
     },
     {
       "id": 66,
       "name": "Mantenimiento Preventivo Completo",
       "category": "soporte",
-      "price": "$70.000",
+      "price": "Costo sujeto a evaluación técnica",
       "description": "Limpieza y optimización",
       "code": "SOP-003",
-      "image": "images/soporte-mantenimiento.jpg"
+      "image": "images/Mantenimiento Preventivo Completo.jpg"
     },
     {
       "id": 67,
       "name": "Soporte de Redes y Conectividad",
       "category": "soporte",
-      "price": "$90.000",
+      "price": "Costo sujeto a evaluación técnica",
       "description": "Configuración y solución de redes",
       "code": "SOP-004",
-      "image": "images/soporte-redes.jpg"
-    },
-    {
-      "id": 68,
-      "name": "Asistencia a Usuarios - Paquete 4 Horas",
-      "category": "soporte",
-      "price": "$150.000",
-      "description": "Soporte general extendido",
-      "code": "SOP-005",
-      "image": "images/soporte-asistencia.jpg"
+      "image": "images/Soporte de Redes y Conectividad.jpg"
     },
     {
       "id": 69,
       "name": "Instalación de Redes Básica",
       "category": "soporte",
-      "price": "$120.000",
-      "description": "Hasta 5 puntos de red",
+      "price": "Costo sujeto a evaluación técnica",
+      "description": "",
       "code": "SOP-006",
-      "image": "images/soporte-redes-instalacion.jpg"
+      "image": "images/Instalación de Redes Básica.jpg"
     }
   ]
 }
+
