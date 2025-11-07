@@ -629,9 +629,55 @@
       "description": "Diseña el combo ideal para tu hogar o negocio",
       "code": "CAM-008",
       "image": "images/armac.jpg"
-    }
+    },
+{
+  "id": 78,
+  "name": "Landing Page Profesional",
+  "category": "desarrollo",
+  "price": "$450.000",
+  "description": "1 página, diseño responsive, formulario de contacto, SEO básico",
+  "code": "WEB-001",
+  "image": "images/landing-page.jpg"
+},
+{
+  "id": 79,
+  "name": "Sitio Web Corporativo",
+  "category": "desarrollo",
+  "price": "$850.000", 
+  "description": "5-10 páginas, panel administrativo, diseño responsive, SEO",
+  "code": "WEB-002",
+  "image": "images/sitio-corporativo.jpg"
+},
+{
+  "id": 80,
+  "name": "Tienda Online E-commerce",
+  "category": "desarrollo",
+  "price": "$1.500.000",
+  "description": "Catálogo productos, carrito compras, pasarelas de pago, panel admin",
+  "code": "WEB-003",
+  "image": "images/tienda-online.jpg"
+},
+{
+  "id": 81,
+  "name": "Portafolio Digital",
+  "category": "desarrollo",
+  "price": "$380.000",
+  "description": "Portafolio personal/profesional, galería proyectos, formulario contacto",
+  "code": "WEB-004",
+  "image": "images/portafolio-digital.jpg"
+},
+{
+  "id": 82,
+  "name": "Blog Personalizado",
+  "category": "desarrollo",
+  "price": "$550.000",
+  "description": "Sistema de blog, categorías, comentarios, panel de administración",
+  "code": "WEB-005",
+  "image": "images/blog-personalizado.jpg"
+}
   ]
 }
+
 
 
 
