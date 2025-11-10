@@ -4,7 +4,7 @@ async function loadProducts() {
     try {
         const response = await fetch('products.json');
         const data = await response.json();
-        return data.products; // ← CAMBIADO: accede a .products
+        return data.products; 
     } catch (error) {
         console.error('Error loading products:', error);
         return [];
@@ -12,15 +12,15 @@ async function loadProducts() {
 }
 
 function filterProducts(category) {
-    // Remover clase active de todos los botones
+   
     document.querySelectorAll('.tab-button').forEach(btn => {
         btn.classList.remove('active');
     });
     
-    // Agregar clase active al botón clickeado
+  
     event.target.classList.add('active');
     
-    // Mostrar productos de la categoría seleccionada
+   
     displayProductsByCategory(category);
 }
 
@@ -39,7 +39,7 @@ function displayProductsByCategory(category) {
     <img src="${product.image}" alt="${product.name}" class="product-image">
     <div class="product-name">${product.name}</div>
     <div class="product-price">${product.price}</div>
-    <div class="product-description">${product.description}</div> <!-- LÍNEA AGREGADA -->
+    <div class="product-description">${product.description}</div> 
     <div class="product-code">Código: ${product.code}</div>
     <button class="whatsapp-button" onclick="buyProduct('${product.name}', '${product.code}')">
         💬 Comprar por WhatsApp
@@ -58,9 +58,10 @@ function buyProduct(productName, productCode) {
     window.open(whatsappUrl, '_blank');
 }
 
-// Inicializar - mostrar Soporte por defecto
+
 document.addEventListener('DOMContentLoaded', function() {
     displayProductsByCategory('soporte');
 });
+
 
 
